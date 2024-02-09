@@ -2,16 +2,16 @@
 
 int main() {
     char operator;
-    double a, b, result;
+    int a, b, result;
 
     printf("Enter operator (+, -, *, /): ");
     scanf("%c", &operator);
 
     printf("Enter a: ");
-    scanf("%lf", &a);
+    scanf("%d", &a);
 
     printf("Enter b: ");
-    scanf("%lf", &b);
+    scanf("%d", &b);
 
     switch (operator) {
         case '+':
@@ -35,7 +35,7 @@ int main() {
             return 0;
     }
 
-    printf("Result: %.2lf\n", result);
+    printf("Result: %.d\n", result);
 
     return 0;
 }
