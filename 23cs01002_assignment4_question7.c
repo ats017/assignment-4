@@ -2,7 +2,7 @@
 
 int main() {
     int age;
-    double ticketPrice;
+    int ticketPrice;
 
     printf("Enter your age: ");
     scanf("%d", &age);
@@ -17,7 +17,7 @@ int main() {
         ticketPrice = 50 * 0.8;
     }
 
-    printf("Ticket price: %.2lf\n", ticketPrice);
+    printf("Ticket price: %d\n", ticketPrice);
 
     return 0;
 }
